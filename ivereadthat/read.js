@@ -5,6 +5,10 @@ var observer = new MutationObserver(function(mutations, observer) {
         $(this).text("朕知道了");
     });
 
+    jQuery("[title='說這則留言讚']").each(function() {
+        $(this).text("朕知道了");
+    });
+
     jQuery("[title='收回讚']").each(function() {
         $(this).text("朕也是看報紙才知道");
     });
